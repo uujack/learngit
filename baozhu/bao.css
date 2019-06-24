@@ -1,0 +1,143 @@
+*{
+	padding:0;
+	margin:0;
+	list-style: none;
+	text-decoration: none;
+	font-family:sans-serif,Georgia,serif;
+}
+body,html{
+	width:100%;
+	height:100%;
+}
+.page_1{
+	display: block;
+	width:100%;
+	height: 100%;
+	background: #ff0033;
+
+}
+.top_t{
+	font-size:1.2em;
+	text-align: center;
+	color: #fff;
+	padding:.5em 0;
+	background: #cc0033;
+}
+.tex_1{
+	width:94%;
+	height:60%;
+	margin:0 auto;
+	text-align: center;
+	color:#fff;
+	padding:2em 0;
+}
+.bao_1,.bao_3{
+	width:9em;
+	height:9em;
+	margin:0 auto;
+	border-radius: 1em;
+	box-shadow: 0em 0em 4em #ff00ff;
+}
+.p_1,.p_3{
+	display:block;
+	padding:1em;
+
+}
+.bao_1{
+	background:#fff url(images/2.png) center;
+	background-size:100% 100%;
+
+}
+.bao_3{
+	background:#fff url(images/1.png) center;
+	background-size:100% 100%;
+}
+
+.ul_1 li{
+	position: relative;
+}
+.pen_1,.pen_3{
+	position: absolute;
+	top:0;
+	width:100%;
+	height:10em;
+	height: auto;
+	display: none;
+}
+
+.img_1,.img_3{
+	width:10em;
+	height: 10em;
+	border-radius: 2em;
+	margin:0 auto;
+	background: #cc0033 url(images/h4acoqk4hnv.gif) center;
+	background-size:100% 100%;
+}
+.zuo{
+	margin:0 auto;
+	width:20px;
+	line-height: 24px;
+	position: absolute;
+	left:2em;
+	top:24%;
+	color:#fff;
+	font-weight: bold;
+	box-shadow: 0em 0 3em #fff;
+	text-align: center;
+}
+.you{
+	margin:0 auto;
+	width:20px;
+	line-height: 24px;
+	position: absolute;
+	right:2em;
+	top:24%;	
+	color:#fff;
+	font-weight: bold;
+	box-shadow: 0em 0 3em #fff;
+	text-align: center;
+}
+.heng{
+	width:50%;
+	text-align: center;
+	margin:0 auto;
+	margin-top:2em;
+	color:#fff;
+	font-weight: bold;
+	letter-spacing:.5em;
+	box-shadow: 0em 0 3em #fff;
+}
+.content{
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	background: #000;
+	opacity: .7;
+}
+.bottom{
+	width:80%;
+	height:30%;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin-top:-30%;
+	margin-left:-40%;
+	background: #fff;
+	border-radius: 2em;
+	box-shadow: 0 0 2em #cc0033;
+	text-align: left;
+	line-height: 1.6em;
+}
+.bottom p{
+	padding:0em 2em;
+	margin-top:1em;
+}
+.guan{
+	position: absolute;
+	right:0em;
+	bottom: .5em;
+	color: red;
+	font-weight: bold;
+}
